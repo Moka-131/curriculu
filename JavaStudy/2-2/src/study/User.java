@@ -12,9 +12,9 @@ class User {
 
     // コンストラクタ
     public User(String userName, int id, String password) {
-        this.userName = "hoge";
-        this.id = 123;
-        this.password = "abc123";
+        this.userName = userName;
+        this.id = id;
+        this.password = password;
     }
 
     // ① 以下のルールに従いアカウント情報（名前、ID、パスワード）を出力するメソッドを作成してください。
@@ -22,11 +22,8 @@ class User {
     // メソッド名:「printAccountInfo」
     protected void printAccountInfo() {
     	System.out.println("ユーザー名は、" + this.userName);
-    }
-    protected void printAccountInfo1() {
     	System.out.println("IDは、" + this.id);
-    }
-    protected void printAccountInfo2() {
     	System.out.println("パスワードは、" + this.password);
     }
+   
 }

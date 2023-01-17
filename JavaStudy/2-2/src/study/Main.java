@@ -20,8 +20,7 @@ public class Main {
     	
         // ② ①のインスタンス変数より、アカウント情報をコンソール出力するメソッドを呼び出しなさい。
     	user.printAccountInfo();
-    	user.printAccountInfo1();
-    	user.printAccountInfo2();
+    	
     		
     	}
     }
