@@ -2,16 +2,20 @@ package study;
 
 //継承先
 // ① TaskクラスにCalculatorクラスを継承させなさい。
-public class Task {
-	private int a;
-	private int b;
-	private int c;
-	public Task(int a, int b, int c) {
-		this.a = 10;
-		this.b = 20;
-		this.c = 30;
-		
+public class Task extends Calculator{
+	public Task() {
 	}
+		private int a;
+		private int b;
+		private int c;
+		public Task(int a, int b, int c) {
+			this.a = 10;
+			this.b = 20;
+			this.c = 30;
+		}
+	
+	
+	
     /**
      * タスクの実行
      */
@@ -27,3 +31,5 @@ public class Task {
 
 }
 
+
+	

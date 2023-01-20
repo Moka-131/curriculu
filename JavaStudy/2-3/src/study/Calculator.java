@@ -1,9 +1,7 @@
 package study;
 //継承元
-public class Calculator extends Task{
-	public Calculator() {
-		super(10, 20, 30);
-	}
+public class Calculator {
+	
 
     protected int plus(int a) {
         return a + 1;
