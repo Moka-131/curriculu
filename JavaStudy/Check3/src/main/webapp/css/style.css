@@ -1,0 +1,27 @@
+@charset "UTF-8";
+table {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+header {
+	background-color: gray;
+	padding: 10px;
+}
+
+.h {
+	display: inline-block;
+	padding: 10px;
+	color: white;
+}
+
+footer {
+	background-color: gray;
+	padding: 10px;
+}
+
+.f{
+	display: inline-block;
+	padding: 10px;
+	color: white;
+}
