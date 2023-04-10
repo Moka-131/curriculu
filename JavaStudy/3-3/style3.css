@@ -1,0 +1,125 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.clearfix::after{
+    content:"";
+    display:block;
+    clear:both;
+}
+
+.wrapper{
+    width:400px;
+
+}
+
+.header{
+    width:400px;
+    height:100px;
+    background-color:#141f40;
+}
+
+.box{
+    width:160px;
+    height:60px;
+    float:right;
+    margin-top:15px;
+    margin-bottom:15px;
+    margin-right: 20px;
+    position:relative;
+}
+
+.box1{
+    width:40px;
+    height:40px;
+    background-color:#a9004b;
+    float:left;
+    margin-top:10px;
+    margin-left:0px;
+    margin-right:5px;
+    box-sizing:content-box;
+    border:5px solid white;
+    outline:5px solid white;
+}
+
+.box2{
+    width:40px;
+    height:40px;
+    background-color:#a9004b;
+    float:left;
+    margin-top:10px;
+    box-sizing:content-box;
+    border:5px solid white;
+    outline:5px solid white;
+}
+
+.box3{
+    width:40px;
+    height:40px;
+    background-color:#a9004b;
+    float:left;
+    margin-top:10px;
+    margin-left:5px;
+    margin-right:0px;
+    box-sizing:content-box;
+    border:5px solid white;
+    outline:5px solid white;
+}
+
+.main{
+    width:400px;
+    height:250px;  
+}
+
+.left{
+    width:150px;
+    height:250px;
+    background-color:#80bfa8;
+    float:left;
+}
+
+.right{
+    width:250px;
+    height:250px;
+    background-color:#8c2727;
+    float:left;
+    padding:40px,60px,40px,40px;
+}
+
+.right-inner-top{
+    margin-top:40px;
+    margin-left:50px;
+    width:140px;
+    height:50px;
+    background-color:#ff863f;
+    border:5px solid white;
+}
+
+.right-inner-center{
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-left:50px;
+    width:140px;
+    height:50px;
+    background-color:#ff863f;
+    border:5px solid white;
+}
+
+.right-inner-bottom{
+    margin-bottom:40px;
+    margin-left:50px;
+    width:140px;
+    height:50px;
+    background-color:#ff863f;
+    border:5px solid white;
+}
+
+.footer{
+    width:400px;
+    height:100px;
+    background-color:#d98d30;
+}
+
+/* ディベロッパーツールでおかしいところを照らし合わせて解決する */
