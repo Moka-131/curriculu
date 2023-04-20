@@ -11,8 +11,8 @@
  <servlet-mapping>
  <servlet-name>select</servlet-name>
  <!--問② URLパターンを記述してください。-->
- <url-pattern>/select</url-pattern>
+ <url-pattern>/SelectServlet</url-pattern>
  </servlet-mapping>
 </web-app>
 
-<!--8-8バージョン-->
+<!--ターゲットランタイムにあるサーバーをすべて適用にするそうすると実行できる。-->
